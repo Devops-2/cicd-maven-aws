@@ -2,7 +2,8 @@
 <html>
 <body style="background-color:powderblue;">
 
-<h1>Welcome to Maven Project Demo </h1>
+<h1>Welcome to SSPCLOUDPRO </h1>
+<h2> This is SSP Web App by Maven in AWS</h2>
 `
 
 
