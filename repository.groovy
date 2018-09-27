@@ -24,5 +24,15 @@ def artifactory(){
   callS3Upload("Upload to S3")
 }
 
+def notify_all(message, color, slackChannel) {
+  def updatedMessage = "(<${env.BUILD_URL}|Build>) `${JOB_NAME}:${env.BUILD_NUMBER}`\n${message}"
+  echo updatedMessage
+  slackSend(
+        channel: slackChannel,
+          message: updatedMessage,
+          color: color
+  )
+}
+
 return this;
 

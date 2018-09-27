@@ -20,10 +20,12 @@ try {
     }
   
    delivery.artifactory()
+   delivery.notify_all("SUCCESS", "good", "sspcloudpro")
   }
   catch (e) {
       currentBuild.result = "FAILED"
       throw e
+      delivery.notify_all("Fail", "warning", "sspcloudpro")
     }
 }
 
