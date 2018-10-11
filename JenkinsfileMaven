@@ -19,7 +19,7 @@ try {
     }
   
    delivery.artifactory()
-   delivery.notify_all("SUCCESS", "good", "sspcloudpro")
+   delivery.notify_all("SUCCESS:- \n Access this URL:- http://13.233.121.14:9000/sspWebApp/ ", "good", "sspcloudpro")
   }
   catch (e) {
       currentBuild.result = "FAILED"
