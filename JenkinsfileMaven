@@ -15,7 +15,7 @@ try {
     }
    stage('Deploy') {
        // sh "/bin/cp -f $WORKSPACE/Build-${env.BUILD_NUMBER}/sspWebApp_${env.BRANCH_NAME}${env.BUILD_NUMBER}.war /opt/tomcat/webapps/sspWebApp.war"
-          sh "docker cp $WORKSPACE/Build-${env.BUILD_NUMBER}/sspWebApp_${env.BRANCH_NAME}${env.BUILD_NUMBER}.war 8d89b0f01996:/usr/local/tomcat/webapps/sspWebApp.war"
+          sh "docker cp $WORKSPACE/Build-${env.BUILD_NUMBER}/sspWebApp_${env.BRANCH_NAME}${env.BUILD_NUMBER}.war 3a3e59177b4b:/usr/local/tomcat/webapps/sspWebApp.war"
     }
   
    delivery.artifactory()
