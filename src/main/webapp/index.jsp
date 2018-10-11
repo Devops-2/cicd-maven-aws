@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:blue;">
+<body style="background-color:yellow;">
 
 <h1>Welcome to DevOps Demo -- SSPCLOUDPRO</h1>
 
