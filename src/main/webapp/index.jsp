@@ -2,7 +2,7 @@
 <html>
 <body style="background-color:yellow;">
 
-<h1>Welcome to DevOps Demo -- SSPCLOUDPRO</h1>
+<h1>Welcome -- SSPCLOUDPRO</h1>
 
 
 
